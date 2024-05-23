@@ -1,0 +1,32 @@
+* {
+  font-family: Roboto;
+}
+
+body {
+  margin: 0px;
+}
+
+.bgTimeLineCont {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.timeLinePara {
+  color: #171f46;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 0px;
+}
+
+.timeLineHead {
+  color: #2b237c;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.chronoCont {
+  height: 600px;
+  width: 600px;
+}

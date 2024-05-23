@@ -1,0 +1,102 @@
+
+
+.bgProjectCont {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.projectCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.PImg {
+  height: 180px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.PHeadCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.PHead {
+  color: #171f46;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.PDurationCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.calendarIcon {
+  font-size: 15px;
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+
+.durationPara {
+  color: #1e293b;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.PPara {
+  color: #1e293b;
+  font-size: 15px;
+}
+
+.visitLink {
+  text-decoration: none;
+  color: #0967d2;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.projectTitle {
+  color: #1e293b;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .PHeadCont {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .PImg {
+    height: 350px;
+  }
+
+  .PHead {
+    font-size: 28px;
+    margin: 0px;
+  }
+
+  .durationPara {
+    font-size: 20px;
+  }
+
+  .PHeadCont {
+    margin: 0px;
+  }
+
+  .PPara {
+    text-align: left;
+    font-size: 17px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

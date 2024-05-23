@@ -1,0 +1,116 @@
+.bgCourseCont {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.courseCont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.CHeadCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.CHead {
+  color: #171f46;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.CDurationCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.clockIcon {
+  font-size: 15px;
+  height: 15px;
+  width: 15px;
+  margin: 0px;
+  margin-right: 8px;
+}
+
+.durationPara {
+  margin: 0px;
+  color: #1e293b;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.CPara {
+  color: #1e293b;
+  font-size: 15px;
+  text-align: left;
+  margin: 0px;
+}
+
+.CTagsCont {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.CTag {
+  background-color: #f1f5f9;
+  color: #1e293b;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 8px;
+}
+
+.courseTitle {
+  color: #0967d2;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .CHeadCont {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .CTagsCont {
+    flex-direction: row;
+  }
+
+  .timeLinePara {
+    font-size: 25px;
+  }
+
+  .timeLineHead {
+    font-size: 30px;
+  }
+
+  .CHead {
+    font-size: 28px;
+  }
+
+  .durationPara {
+    font-size: 20px;
+  }
+
+  .CPara {
+    font-size: 17px;
+  }
+
+  .CTag {
+    font-size: 18px;
+  }
+}
